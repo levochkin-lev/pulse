@@ -1,0 +1,148 @@
+@media (max-width: 992px) {
+  .container {
+    max-width: none;
+    padding: 0 20px;
+  }
+  .promo {
+    &__header {
+      font-size: 36px;
+    }
+    &__subheader {
+      font-size: 20px;
+    }
+  }
+  .reasons {
+    .title {
+      font-size: 26px;
+    }
+    &__block {
+      justify-content: space-around;
+    }
+  }
+  .consultation {
+    .title_left {
+      font-size: 32px;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .hidden-768 {
+    display: none;
+  }
+  .header {
+    flex-wrap: wrap;
+    &__contacts {
+      margin-left: auto;
+    }
+    &__phone {
+      font-size: 16px;
+    }
+  }
+  .promo {
+    &__header {
+      font-size: 32px;
+    }
+    &__subheader {
+      margin-top: 0;
+      font-size: 18px;
+    }
+    &_icons {
+      margin-top: 40px;
+    }
+  }
+  .reasons {
+    .title {
+      font-size: 24px;
+    }
+    &__row {
+      margin-top: 55px;
+    }
+  }
+  .consultation {
+    .title_left {
+      font-size: 24px;
+    }
+    &__descr {
+      font-size: 18px;
+    }
+  }
+}
+@media (max-width: 575px) {
+  .hidden-320 {
+    display: none;
+  }
+  .header {
+    flex-wrap: wrap;
+    &__logo {
+      width: 50%;
+      margin-bottom: 10px;
+    }
+    &__contacts {
+      margin-left: auto;
+    }
+    &__phone {
+      font-size: 14px;
+    }
+  }
+  .promo {
+    min-height: auto;
+    padding-bottom: 65px;
+    background: url(../img/bg_promo_320.jpg) center (center/cover) no-repeat;
+    &__wrapper {
+      margin-top: 130px;
+      align-items: center;
+      text-align: center;
+    }
+    &__header {
+      font-size: 22px;
+      line-height: 22px;
+    }
+    &__subheader {
+      font-size: 16px;
+      line-height: 20px;
+    }
+    .button {
+      width: 122px;
+      height: 24px;
+      font-size: 11px;
+      &_main {
+        margin-top: 75px;
+        width: 230px;
+        height: 40px;
+        font-size: 14px;
+      }
+    }
+    &__link {
+      font-size: 14px;
+      a {
+        font-size: 14px;
+      }
+    }
+  }
+  .reasons {
+    padding: 50px 0 50px 0;
+    .title {
+      font-size: 20px;
+    }
+    &__row {
+      margin-top: 30px;
+    }
+    &__subtitle {
+      margin-top: 28px;
+    }
+  }
+  .consultation {
+    padding: 50px 0 50px 0;
+    .title_left {
+      font-size: 18px;
+      text-align: center;
+    }
+    &__descr {
+      font-size: 14px;
+      text-align: center;
+    }
+    .feed-form {
+      width: 280px;
+    }
+  }
+}
