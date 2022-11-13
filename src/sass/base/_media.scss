@@ -24,6 +24,13 @@
       font-size: 32px;
     }
   }
+  .carousel {
+    .tns-item {
+      img {
+        width: 80%;
+      }
+    }
+  }
 }
 @media (max-width: 767px) {
   .hidden-768 {
@@ -64,6 +71,13 @@
     }
     &__descr {
       font-size: 18px;
+    }
+  }
+  .carousel {
+    .tns-item {
+      img {
+        width: 80%;
+      }
     }
   }
 }
@@ -143,6 +157,19 @@
     }
     .feed-form {
       width: 280px;
+    }
+  }
+  .carousel {
+    .tns-item {
+      img {
+        width: 70%;
+      }
+    }
+    .prev,
+    .next {
+      img {
+        width: 30%;
+      }
     }
   }
 }
