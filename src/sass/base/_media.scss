@@ -156,6 +156,7 @@
     }
   }
   .consultation {
+    min-height: 550px;
     padding: 50px 0 50px 0;
     .title_left {
       font-size: 18px;
@@ -170,6 +171,7 @@
     }
   }
   .carousel {
+    padding: 50px 0;
     .tns-item {
       img {
         width: 70%;
@@ -211,6 +213,23 @@
     h3,
     h4 {
       text-align: center;
+    }
+  }
+  .footer {
+    &__info {
+      width: 320px;
+      height: 156px;
+      padding: 18px 30px 18px 30px;
+    }
+    &__addr {
+      font-size: 16px;
+      margin-bottom: 12px;
+    }
+    &__phone {
+      font-size: 16px;
+    }
+    &__social {
+      margin-top: 12px;
     }
   }
 }
