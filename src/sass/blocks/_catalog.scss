@@ -164,10 +164,11 @@
       color: $main-color;
       font-size: 14px;
       font-weight: 500;
-      text-decoration: underline;
       text-transform: uppercase;
+      text-decoration: none;
       &:hover {
         color: $main-color;
+        text-decoration: underline;
       }
     }
   }

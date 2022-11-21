@@ -232,4 +232,22 @@
       margin-top: 12px;
     }
   }
+  #consultation,
+  #order,
+  #thanks {
+    width: 240px;
+    padding: 20px;
+  }
+  .modal {
+    &__subtitle {
+      font-size: 16px;
+      line-height: 1.2;
+    }
+  }
+  .feed-form {
+    width: 200px;
+  }
+  .button_submit {
+    font-size: 13px;
+  }
 }
